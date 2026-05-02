@@ -1,0 +1,26 @@
+[core]
+	editor = nvim
+[diff]
+	tool = nvimdiff
+	algorithm = histogram
+[difftool]
+	prompt = false
+[push]
+	autoSetupRemote = true
+[commit]
+	verbose = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[merge]
+	conflictstyle = zdiff3
+	tool = nvimdiff
+[mergetool]
+	prompt = false
+[init]
+	defaultBranch = develop
+[rebase]
+	autosquash = true
+[pull]
+	ff = only
