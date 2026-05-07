@@ -9,8 +9,6 @@
 	autoSetupRemote = true
 [commit]
 	verbose = true
-[column]
-	ui = auto
 [branch]
 	sort = -committerdate
 [merge]
